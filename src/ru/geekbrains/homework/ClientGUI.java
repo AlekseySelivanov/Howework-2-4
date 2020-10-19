@@ -76,7 +76,7 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         setVisible(true);
     }
 
-    //выводим на экран и записываем в файл
+
     void sendMessage() {
         String out = tfMessage.getText();
         log.append(getTime() + ": " + out + "\n"); //вывод на экран
